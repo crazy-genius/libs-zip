@@ -1,0 +1,22 @@
+{
+    "name": "crazy_genius/libs-zip",
+    "description": "Zip lib wrapper",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Minkin Aleksey",
+            "email": "crazy_genius@mail.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0",
+        "ext-zip": "*"
+    },
+    "autload": {
+        "psr-4": {
+            "CrazyGenius\\Libs\\Zip\\": "src/CrazyGenius/Libs/Zip"
+        }
+    }
+}
