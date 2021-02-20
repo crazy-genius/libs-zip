@@ -14,7 +14,7 @@
         "php": "^8.0",
         "ext-zip": "*"
     },
-    "autload": {
+    "autoload": {
         "psr-4": {
             "CrazyGenius\\Libs\\Zip\\": "src/CrazyGenius/Libs/Zip"
         }
